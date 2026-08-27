@@ -1,4 +1,7 @@
+import sys
+from pathlib import Path
 from PySide6.QtCore import Qt
+from PySide6.QtGui import QPixmap  # <-- AJOUT ICI
 from PySide6.QtWidgets import (
     QMainWindow,
     QWidget,
@@ -9,12 +12,25 @@ from PySide6.QtWidgets import (
     QStackedWidget,
     QFrame,
 )
-
 from ui.home_page import HomePage
 from ui.profile_page import ProfilePage
 from ui.recommandation_page import RecommendationPage
 from ui.chat_page import ChatPage
 
+def get_resource_path(relative_path: str) -> Path:
+    """ Résout le chemin d'accès compatible Dev et PyInstaller (.exe) """
+    if hasattr(sys, "_MEIPASS"):
+        return Path(sys._MEIPASS) / relative_path
+    
+    # Recherche à partir du fichier actuel (ui/main_window.py -> racine du projet)
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    path = base_dir / relative_path
+    
+    if not path.exists():
+        # Tentative depuis le répertoire de travail courant (D:\Projet\Orenti'IA)
+        path = Path.cwd() / relative_path
+
+    return path
 
 class MainWindow(QMainWindow):
 
@@ -26,7 +42,7 @@ class MainWindow(QMainWindow):
 
         self.setup_ui()
         self.apply_style()
-
+    
     def setup_ui(self):
 
         # =====================================================
@@ -48,9 +64,18 @@ class MainWindow(QMainWindow):
         sidebar.setObjectName("sidebar")
         sidebar.setFixedWidth(240)
 
+        # On met 0 marge à gauche/droite du sidebar pour que le bloc blanc touche les bords
         sidebar_layout = QVBoxLayout(sidebar)
-        sidebar_layout.setContentsMargins(15, 20, 15, 20)
+        sidebar_layout.setContentsMargins(0, 20, 0, 20)
         sidebar_layout.setSpacing(10)
+
+        # Helper pour ajouter du padding interne aux autres éléments du menu
+        def add_padded_widget(widget, padding_horizontal=15):
+            container = QWidget()
+            layout = QHBoxLayout(container)
+            layout.setContentsMargins(padding_horizontal, 0, padding_horizontal, 0)
+            layout.addWidget(widget)
+            return container
 
         # Logo / titre
         title = QLabel("ORIENT'IA")
@@ -59,8 +84,8 @@ class MainWindow(QMainWindow):
         subtitle = QLabel("Assistant d'orientation")
         subtitle.setObjectName("subtitle")
 
-        sidebar_layout.addWidget(title)
-        sidebar_layout.addWidget(subtitle)
+        sidebar_layout.addWidget(add_padded_widget(title))
+        sidebar_layout.addWidget(add_padded_widget(subtitle))
 
         sidebar_layout.addSpacing(30)
 
@@ -73,19 +98,45 @@ class MainWindow(QMainWindow):
         self.btn_recommendation = self.create_menu_button("🎯  Recommandations")
         self.btn_chat = self.create_menu_button("💬  Assistant IA")
 
-        sidebar_layout.addWidget(self.btn_home)
-        sidebar_layout.addWidget(self.btn_profile)
-        sidebar_layout.addWidget(self.btn_recommendation)
-        sidebar_layout.addWidget(self.btn_chat)
+        sidebar_layout.addWidget(add_padded_widget(self.btn_home))
+        sidebar_layout.addWidget(add_padded_widget(self.btn_profile))
+        sidebar_layout.addWidget(add_padded_widget(self.btn_recommendation))
+        sidebar_layout.addWidget(add_padded_widget(self.btn_chat))
 
         sidebar_layout.addStretch()
+
+        # =====================================================
+        # LOGO UNIVERSITÉ (PLEINE LARGEUR 240px)
+        # =====================================================
+        logo_container = QFrame()
+        logo_container.setObjectName("logoContainer")
+        
+        logo_container_layout = QVBoxLayout(logo_container)
+        # Marges haut/bas de 10px, 0px sur les côtés pour occuper toute la largeur
+        logo_container_layout.setContentsMargins(0, 10, 0, 10)
+
+        logo_label = QLabel()
+        logo_label.setAlignment(Qt.AlignCenter)
+        
+        logo_path = get_resource_path("assets/logo_ispm.png")
+        if logo_path.exists():
+            pixmap = QPixmap(str(logo_path))
+            if not pixmap.isNull():
+                # On ajuste l'image à la largeur exacte du sidebar (240px)
+                scaled_pixmap = pixmap.scaledToWidth(240, Qt.SmoothTransformation)
+                logo_label.setPixmap(scaled_pixmap)
+
+        logo_container_layout.addWidget(logo_label)
+        
+        sidebar_layout.addWidget(logo_container)
+        sidebar_layout.addSpacing(15)
 
         # Mode offline
         offline = QLabel("●  Mode hors ligne")
         offline.setObjectName("offline")
 
-        sidebar_layout.addWidget(offline)
-
+        sidebar_layout.addWidget(add_padded_widget(offline))
+        
         # =====================================================
         # ZONE DES PAGES
         # =====================================================

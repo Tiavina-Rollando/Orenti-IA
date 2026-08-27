@@ -1,42 +1,41 @@
 {
-    "niveau": "Baccalauréat D",
+    "niveau": "Baccalauréat A",
     "matieres_preferees": [
-        "Mathématiques",
-        "Informatique"
+        "Chimie",
+        "Biologie"
     ],
     "resultats_scolaires": {
-        "mathematiques": 14.5,
-        "physique": 6.0,
-        "chimie": 7.0,
-        "informatique": 19.5,
+        "mathematiques": 11.5,
+        "physique": 14.5,
+        "chimie": 15.0,
+        "informatique": 5.5,
         "francais": 13.0,
         "anglais": 11.5,
-        "biologie": 5.0,
-        "economie": 18.0,
-        "gestion": 19.5,
-        "histoire-geographie": 6.0,
-        "droit": 5.5,
-        "technique": 9.0
+        "biologie": 17.0,
+        "economie": 10.0,
+        "gestion": 10.0,
+        "histoire-geographie": 11.0,
+        "droit": 7.5,
+        "technique": 11.0
     },
     "competences": [
-        "Programmation",
-        "Gestion"
+        "Biologie",
+        "Géologie"
     ],
     "centres_interet": [
-        "Informatique",
-        "Technologie"
+        "Sciences",
+        "Santé"
     ],
     "activites_projets": [
-        "Conception de logiciel de gestion d'entreprise"
+        "Bissection animale",
+        "Etude de roche"
     ],
     "preferences_professionnelles": [
-        "Développeur logiciel",
-        "Data Scientist",
-        "Comptable"
+        "Ingénieur",
+        "Chercheur"
     ],
     "environnement_travail": [
-        "Travail en équipe",
-        "Bureau",
-        "Administration"
+        "Laboratoire",
+        "Terrain"
     ]
 }
