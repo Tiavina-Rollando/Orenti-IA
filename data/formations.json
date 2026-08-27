@@ -1,0 +1,524 @@
+[
+    {
+        "code": "IGGLIA",
+        "nom": "Informatique de Gestion, Génie Logiciel et Intelligence Artificielle",
+        "domaine": "Informatique et Télécommunications",
+        "description": "Formation orientée vers la maîtrise des techniques informatiques appliquées à la gestion des entreprises.",
+        "axes": [
+            "Informatique de gestion",
+            "Génie logiciel",
+            "Intelligence artificielle",
+            "Systèmes informatiques"
+        ],
+        "competences": [
+            "Conception de logiciels",
+            "Développement informatique",
+            "Informatique appliquée à la gestion",
+            "Analyse des systèmes"
+        ],
+        "debouches": [
+            "Développeur logiciel",
+            "Ingénieur logiciel",
+            "Analyste informatique",
+            "Informaticien de gestion",
+            "Métiers liés à l'intelligence artificielle"
+        ],
+        "prerequis": "Baccalauréat C, D, S ou Techniques industrielles.",
+        "concours": [
+            "Français",
+            "Logique ou nombres complexes",
+            "Mathématiques"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "ESIIA",
+        "nom": "Électronique, Système Informatique et Intelligence Artificielle",
+        "domaine": "Informatique et Télécommunications",
+        "description": "Formation combinant l'électronique, la structure des ordinateurs et les applications fondamentales de l'informatique.",
+        "axes": [
+            "Électronique",
+            "Systèmes informatiques",
+            "Architecture des ordinateurs",
+            "Intelligence artificielle"
+        ],
+        "competences": [
+            "Électronique",
+            "Compréhension des systèmes informatiques",
+            "Architecture des ordinateurs",
+            "Informatique appliquée"
+        ],
+        "debouches": [
+            "Ingénieur électronique",
+            "Technicien systèmes informatiques",
+            "Technicien électronique",
+            "Ingénieur informatique",
+            "Métiers des systèmes embarqués"
+        ],
+        "prerequis": "Baccalauréat C, D, S ou Techniques industrielles.",
+        "concours": [
+            "Français",
+            "Logique ou nombres complexes",
+            "Électricité",
+            "Mathématiques"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "IMTICIA",
+        "nom": "Informatique Multimédia, TIC et Intelligence Artificielle",
+        "domaine": "Informatique et Télécommunications",
+        "description": "Formation consacrée à l'informatique multimédia, aux télécommunications et aux nouvelles technologies de l'information et de la communication.",
+        "axes": [
+            "Informatique multimédia",
+            "Technologies de l'information",
+            "Communication numérique",
+            "Télécommunications",
+            "Intelligence artificielle"
+        ],
+        "competences": [
+            "Technologies numériques",
+            "Multimédia",
+            "Communication numérique",
+            "Technologies de l'information"
+        ],
+        "debouches": [
+            "Développeur multimédia",
+            "Technicien TIC",
+            "Professionnel du numérique",
+            "Métiers de la communication numérique",
+            "Métiers des télécommunications"
+        ],
+        "prerequis": "Baccalauréat C, D, S ou Techniques industrielles.",
+        "concours": [
+            "Français",
+            "Logique ou nombres complexes",
+            "Mathématiques"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "ISAIA",
+        "nom": "Informatique Statistique Appliquée et Intelligence Artificielle",
+        "domaine": "Informatique et Télécommunications",
+        "description": "Formation basée sur l'application des méthodes statistiques et informatiques dans différents domaines de l'économie.",
+        "axes": [
+            "Mathématiques",
+            "Statistiques",
+            "Informatique",
+            "Économie",
+            "Intelligence artificielle"
+        ],
+        "competences": [
+            "Analyse statistique",
+            "Traitement des données",
+            "Informatique",
+            "Analyse économique",
+            "Intelligence artificielle"
+        ],
+        "debouches": [
+            "Data analyst",
+            "Statisticien",
+            "Analyste de données",
+            "Analyste économique",
+            "Métiers de la banque",
+            "Métiers des entreprises industrielles et commerciales"
+        ],
+        "prerequis": "Baccalauréat C, D, S ou Techniques industrielles.",
+        "concours": [
+            "Français",
+            "Logique ou nombres complexes",
+            "Mathématiques"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "CAA",
+        "nom": "Commerce et Administration des Affaires",
+        "domaine": "Techniques des Affaires",
+        "description": "Formation fondée sur le marketing, les techniques commerciales, l'organisation et le management des entreprises.",
+        "axes": [
+            "Commerce",
+            "Marketing",
+            "Techniques commerciales",
+            "Organisation",
+            "Management"
+        ],
+        "competences": [
+            "Gestion commerciale",
+            "Marketing",
+            "Management",
+            "Organisation d'entreprise",
+            "Techniques de vente"
+        ],
+        "debouches": [
+            "Commercial",
+            "Responsable commercial",
+            "Responsable marketing",
+            "Assistant manager",
+            "Entrepreneur"
+        ],
+        "prerequis": "Baccalauréat toutes séries.",
+        "concours": [
+            "Français",
+            "Mathématiques ou Histoire-Géographie ou SVT",
+            "Anglais ou Allemand ou Espagnol"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "FIC",
+        "nom": "Finances et Comptabilités",
+        "domaine": "Techniques des Affaires",
+        "description": "Formation consacrée aux techniques quantitatives de gestion des entreprises, notamment les finances et la comptabilité.",
+        "axes": [
+            "Finance",
+            "Comptabilité",
+            "Gestion",
+            "Techniques quantitatives"
+        ],
+        "competences": [
+            "Gestion financière",
+            "Comptabilité",
+            "Analyse financière",
+            "Gestion d'entreprise"
+        ],
+        "debouches": [
+            "Comptable",
+            "Assistant comptable",
+            "Analyste financier",
+            "Gestionnaire",
+            "Responsable financier"
+        ],
+        "prerequis": "Baccalauréat toutes séries.",
+        "concours": [
+            "Français",
+            "Mathématiques ou Histoire-Géographie ou SVT",
+            "Anglais ou Allemand ou Espagnol"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "DTJA",
+        "nom": "Droit et Techniques Juridiques des Affaires",
+        "domaine": "Techniques des Affaires",
+        "description": "Formation destinée à maîtriser les techniques juridiques nationales et internationales avec l'utilisation de l'outil informatique.",
+        "axes": [
+            "Droit",
+            "Techniques juridiques",
+            "Droit des affaires",
+            "Outils informatiques"
+        ],
+        "competences": [
+            "Analyse juridique",
+            "Techniques juridiques",
+            "Droit des affaires",
+            "Utilisation des outils informatiques"
+        ],
+        "debouches": [
+            "Juriste",
+            "Technicien juridique",
+            "Administration publique",
+            "Entreprises privées",
+            "Services juridiques"
+        ],
+        "prerequis": "Baccalauréat toutes séries.",
+        "concours": [
+            "Français",
+            "Mathématiques ou Histoire-Géographie ou SVT",
+            "Anglais ou Allemand ou Espagnol"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "EMP",
+        "nom": "Économie et Management de Projet",
+        "domaine": "Techniques des Affaires",
+        "description": "Formation visant à former des économistes capables de réaliser des analyses économiques objectives et de les appliquer aux réalités des entreprises.",
+        "axes": [
+            "Économie",
+            "Management",
+            "Gestion de projet",
+            "Analyse économique"
+        ],
+        "competences": [
+            "Analyse économique",
+            "Management",
+            "Gestion de projet",
+            "Prise de décision"
+        ],
+        "debouches": [
+            "Économiste",
+            "Chef de projet",
+            "Chargé d'études",
+            "Consultant",
+            "Gestionnaire de projet"
+        ],
+        "prerequis": "Baccalauréat toutes séries.",
+        "concours": [
+            "Français",
+            "Mathématiques ou Histoire-Géographie ou SVT",
+            "Anglais ou Allemand ou Espagnol"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "IAA",
+        "nom": "Industrie Agroalimentaire",
+        "domaine": "Biotechnologie et Agronomie",
+        "description": "Formation destinée à former des cadres pour les entreprises de l'industrie agroalimentaire.",
+        "axes": [
+            "Industrie agroalimentaire",
+            "Technologies alimentaires",
+            "Production",
+            "Qualité"
+        ],
+        "competences": [
+            "Production agroalimentaire",
+            "Contrôle qualité",
+            "Technologies alimentaires",
+            "Gestion des procédés"
+        ],
+        "debouches": [
+            "Industrie agroalimentaire",
+            "Responsable qualité",
+            "Technicien agroalimentaire",
+            "Responsable production",
+            "Entrepreneur agroalimentaire"
+        ],
+        "prerequis": "Baccalauréat C, D, S, Techniques agricoles ou A2 avec note ≥ 12 en mathématiques.",
+        "concours": [
+            "Français",
+            "Mathématiques",
+            "Chimie ou Biologie"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "PIP",
+        "nom": "Pharmacologie et Industries Pharmaceutiques",
+        "domaine": "Biotechnologie et Agronomie",
+        "description": "Formation orientée vers l'étude scientifique des propriétés thérapeutiques, notamment celles des plantes médicinales.",
+        "axes": [
+            "Pharmacologie",
+            "Industrie pharmaceutique",
+            "Biotechnologie",
+            "Plantes médicinales"
+        ],
+        "competences": [
+            "Analyse scientifique",
+            "Pharmacologie",
+            "Biotechnologie",
+            "Recherche pharmaceutique"
+        ],
+        "debouches": [
+            "Industrie pharmaceutique",
+            "Recherche",
+            "Laboratoires",
+            "Biotechnologie",
+            "Secteur des produits de santé"
+        ],
+        "prerequis": "Baccalauréat C, D, S, Techniques agricoles ou A2 avec note ≥ 12 en mathématiques.",
+        "concours": [
+            "Français",
+            "Mathématiques",
+            "Chimie ou Biologie"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "AEE",
+        "nom": "Agriculture et Élevage",
+        "domaine": "Biotechnologie et Agronomie",
+        "description": "Formation destinée à appliquer les techniques et technologies modernes au monde rural et à développer les concepts d'agri-business.",
+        "axes": [
+            "Agriculture",
+            "Élevage",
+            "Technologies agricoles",
+            "Agri-business"
+        ],
+        "competences": [
+            "Techniques agricoles",
+            "Élevage",
+            "Gestion d'exploitation",
+            "Agri-business"
+        ],
+        "debouches": [
+            "Exploitant agricole",
+            "Conseiller agricole",
+            "Gestionnaire d'exploitation",
+            "Entrepreneur agricole",
+            "Secteur de l'élevage"
+        ],
+        "prerequis": "Baccalauréat C, D, S, Techniques agricoles ou A2 avec note ≥ 12 en mathématiques.",
+        "concours": [
+            "Français",
+            "Mathématiques",
+            "Chimie ou Biologie"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "EMII",
+        "nom": "Électro-Mécanique et Informatique Industrielle",
+        "domaine": "Génie Industriel et Génie Civil",
+        "description": "Formation combinant les technologies mécaniques, électriques, industrielles et informatiques.",
+        "axes": [
+            "Électromécanique",
+            "Mécanique",
+            "Électricité",
+            "Informatique industrielle"
+        ],
+        "competences": [
+            "Maintenance industrielle",
+            "Électromécanique",
+            "Automatisation",
+            "Informatique industrielle"
+        ],
+        "debouches": [
+            "Ingénieur industriel",
+            "Technicien de maintenance",
+            "Automaticien",
+            "Électromécanicien",
+            "Industrie manufacturière"
+        ],
+        "prerequis": "Baccalauréat C, D, S ou Techniques industrielles.",
+        "concours": [
+            "Français",
+            "Physique ou RDM",
+            "Mathématiques"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "GCA",
+        "nom": "Génie Civil et Architecture",
+        "domaine": "Génie Industriel et Génie Civil",
+        "description": "Formation orientée vers la construction des infrastructures, l'aménagement urbain et rural.",
+        "axes": [
+            "Génie civil",
+            "Architecture",
+            "Construction",
+            "Aménagement urbain",
+            "Aménagement rural"
+        ],
+        "competences": [
+            "Conception",
+            "Construction",
+            "Aménagement",
+            "Gestion de projets de construction"
+        ],
+        "debouches": [
+            "Ingénieur génie civil",
+            "Architecte",
+            "Conducteur de travaux",
+            "Bureau d'études",
+            "BTP"
+        ],
+        "prerequis": "Baccalauréat C, D, S ou Techniques du génie civil.",
+        "concours": [
+            "Français",
+            "Physique ou RDM",
+            "Mathématiques"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "ICMP",
+        "nom": "Industries Chimiques, Minières et Pétrolières",
+        "domaine": "Génie Industriel et Génie Civil",
+        "description": "Formation destinée aux domaines des industries chimiques, minières et pétrolières.",
+        "axes": [
+            "Industrie chimique",
+            "Industrie minière",
+            "Industrie pétrolière",
+            "Technologies industrielles"
+        ],
+        "competences": [
+            "Procédés industriels",
+            "Analyse scientifique",
+            "Technologies minières",
+            "Industrie chimique"
+        ],
+        "debouches": [
+            "Industrie minière",
+            "Industrie pétrolière",
+            "Industrie chimique",
+            "Laboratoires",
+            "Bureaux d'études"
+        ],
+        "prerequis": "Baccalauréat C, D, S ou Techniques industrielles.",
+        "concours": [
+            "Français",
+            "Physique ou Chimie",
+            "Mathématiques"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "TEE",
+        "nom": "Tourisme et Environnement",
+        "domaine": "Tourisme",
+        "description": "Formation portant sur la richesse de l'environnement, de la faune, de la flore et de la civilisation malagasy.",
+        "axes": [
+            "Tourisme",
+            "Environnement",
+            "Patrimoine",
+            "Culture",
+            "Écotourisme"
+        ],
+        "competences": [
+            "Gestion touristique",
+            "Valorisation du patrimoine",
+            "Environnement",
+            "Communication touristique"
+        ],
+        "debouches": [
+            "Guide touristique",
+            "Agence de voyage",
+            "Tourisme durable",
+            "Gestion de sites touristiques",
+            "Organismes touristiques"
+        ],
+        "prerequis": "Baccalauréat toutes séries.",
+        "concours": [
+            "Français",
+            "Mathématiques ou Histoire-Géographie ou SVT",
+            "Anglais ou Allemand ou Espagnol"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    },
+    {
+        "code": "TEH",
+        "nom": "Tourisme et Hôtellerie",
+        "domaine": "Tourisme",
+        "description": "Formation consacrée au tourisme, à la culture et aux techniques de l'art culinaire national et international.",
+        "axes": [
+            "Tourisme",
+            "Hôtellerie",
+            "Culture",
+            "Art culinaire"
+        ],
+        "competences": [
+            "Gestion hôtelière",
+            "Accueil",
+            "Tourisme",
+            "Art culinaire",
+            "Communication"
+        ],
+        "debouches": [
+            "Hôtellerie",
+            "Restauration",
+            "Agences de voyage",
+            "Tourisme",
+            "Gestion d'établissements touristiques"
+        ],
+        "prerequis": "Baccalauréat toutes séries.",
+        "concours": [
+            "Français",
+            "Mathématiques ou Histoire-Géographie ou SVT",
+            "Anglais ou Allemand ou Espagnol"
+        ],
+        "duree": "Licence : 3 ans\nApprofondissement : 2 ans"
+    }
+]

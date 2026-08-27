@@ -1,0 +1,37 @@
+{
+    "niveau": "Baccalauréat D",
+    "matieres_preferees": [
+        "Économie",
+        "Gestion",
+        "Droit"
+    ],
+    "resultats_scolaires": {
+        "mathematiques": 6.5,
+        "physique": 6.5,
+        "informatique": 3.0,
+        "francais": 15.0,
+        "anglais": 12.5,
+        "economie": 13.5,
+        "gestion": 16.5
+    },
+    "competences": [
+        "Gestion",
+        "Finance"
+    ],
+    "centres_interet": [
+        "Business",
+        "Finance"
+    ],
+    "activites_projets": [
+        "Gestion et comptabilité"
+    ],
+    "preferences_professionnelles": [
+        "Entrepreneur",
+        "Comptable",
+        "Commercial"
+    ],
+    "environnement_travail": [
+        "Travail en équipe",
+        "Bureau"
+    ]
+}
