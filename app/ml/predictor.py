@@ -1,8 +1,8 @@
 import pandas as pd
 
-from app.data.models import UserProfile
-from app.ml.model_loader import get_models
-from app.ml.preprocessing import profile_to_dataframe
+from data.models import UserProfile
+from ml.model_loader import get_models
+from ml.preprocessing import profile_to_dataframe
 
 
 DEFAULT_MODEL = "logistic_regression"

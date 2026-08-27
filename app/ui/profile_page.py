@@ -19,8 +19,8 @@ from PySide6.QtWidgets import (
     QDoubleSpinBox,
 )
 
-from app.data.models import UserProfile
-from app.data.loader import load_profile, save_profile
+from data.models import UserProfile
+from data.loader import load_profile, save_profile
 
 
 def normalize_key(text: str) -> str:

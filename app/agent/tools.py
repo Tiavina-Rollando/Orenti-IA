@@ -1,6 +1,6 @@
 import json
 from langchain_core.tools import tool
-from app.rag.vectorstore import retriever
+from rag.vectorstore import retriever
 
 @tool
 def rechercher_formation(requete: str) -> str:

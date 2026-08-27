@@ -11,7 +11,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
-from app.ml.preprocessing import SUBJECT_COLUMNS, prepare_dataset
+from ml.preprocessing import SUBJECT_COLUMNS, prepare_dataset
 
 DATASET_PATH = "data/orientation_dataset.csv"
 MODEL_PATH = "models/orientation_model.pkl"

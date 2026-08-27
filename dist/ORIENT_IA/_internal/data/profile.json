@@ -1,37 +1,40 @@
 {
-    "niveau": "Baccalauréat D",
+    "niveau": "Baccalauréat A",
     "matieres_preferees": [
-        "Économie",
-        "Gestion",
-        "Droit"
+        "Chimie",
+        "Français",
+        "Biologie"
     ],
     "resultats_scolaires": {
-        "mathematiques": 6.5,
-        "physique": 6.5,
-        "informatique": 3.0,
-        "francais": 15.0,
-        "anglais": 12.5,
-        "economie": 13.5,
-        "gestion": 16.5
+        "mathematiques": 9.5,
+        "physique": 13.0,
+        "chimie": 19.5,
+        "informatique": 6.5,
+        "francais": 13.0,
+        "anglais": 11.5,
+        "biologie": 16.0,
+        "economie": 9.0,
+        "gestion": 9.0,
+        "histoire-geographie": 10.0,
+        "droit": 5.5,
+        "technique": 10.5
     },
     "competences": [
-        "Gestion",
-        "Finance"
+        "Biologie",
+        "Science naturelle"
     ],
     "centres_interet": [
-        "Business",
-        "Finance"
+        "Sciences",
+        "Santé"
     ],
     "activites_projets": [
-        "Gestion et comptabilité"
+        "Bissection animale"
     ],
     "preferences_professionnelles": [
-        "Entrepreneur",
-        "Comptable",
-        "Commercial"
+        "Chercheur"
     ],
     "environnement_travail": [
-        "Travail en équipe",
-        "Bureau"
+        "Laboratoire",
+        "Terrain"
     ]
 }

@@ -1,5 +1,5 @@
-from app.data.models import UserProfile
-from app.ml.recommender import generate_recommendations
+from data.models import UserProfile
+from ml.recommender import generate_recommendations
 
 profile = UserProfile(
     niveau="Terminale",

@@ -14,8 +14,8 @@ from sklearn.metrics import (
 
 from sklearn.model_selection import train_test_split
 
-from app.ml.preprocessing import prepare_dataset
-from app.ml.train import build_models
+from ml.preprocessing import prepare_dataset
+from ml.train import build_models
 
 
 DATASET_PATH = "data/orientation_dataset.csv"

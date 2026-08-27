@@ -1,5 +1,5 @@
 from typing import Dict, List
-from app.rag.vector_store import build_or_get_vector_store
+from rag.vector_store import build_or_get_vector_store
 
 
 def get_relevant_documents(

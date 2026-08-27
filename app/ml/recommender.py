@@ -1,16 +1,16 @@
 # app/ml/recommender.py
 from typing import List
 
-from app.data.loader import FORMATIONS_FILE
-from app.data.models import (
+from data.loader import FORMATIONS_FILE
+from data.models import (
     Recommendation,
     RecommendationResult,
     UserProfile,
 )
-from app.ml.predictor import predict_profile
+from ml.predictor import predict_profile
 
 from typing import List, Dict, Any
-from app.data.models import UserProfile, Recommendation, RecommendationResult
+from data.models import UserProfile, Recommendation, RecommendationResult
 
 
 def generate_justification(profile: UserProfile, parcours_name: str, top_n_reasons: int = 2) -> str:
@@ -46,11 +46,6 @@ def generate_justification(profile: UserProfile, parcours_name: str, top_n_reaso
 
     return " • ".join(reasons[:top_n_reasons])
 
-from typing import Dict, List, Any
-
-import json
-from pathlib import Path
-from typing import Any, Dict, List
 
 # ---------------------------------------------------------
 # Chargement du fichier JSON au démarrage de l'application

@@ -9,8 +9,8 @@ from PySide6.QtWidgets import (
     QMessageBox,
 )
 
-from app.data.loader import load_profile
-from app.ml.recommender import generate_recommendations
+from data.loader import load_profile
+from ml.recommender import generate_recommendations
 
 
 class RecommendationPage(QWidget):

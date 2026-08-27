@@ -74,7 +74,7 @@ import re
 from langchain_community.llms import Ollama
 from langchain_core.tools import tool
 
-from app.rag.vectorstore import retriever, JSON_PATH
+from rag.vectorstore import retriever, JSON_PATH
 
 # --- 1. OUTILS TECHNIQUES ---
 
